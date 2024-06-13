@@ -1,4 +1,8 @@
-* {
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -8,11 +12,17 @@
 }
 
 #homepage-list {
-  background-color: lightpink;
+  background-color: white;
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 0;
 }
 
 #homepage-list li {
+  background-color: lightpink;
   text-align: center;
+  margin: 10px auto;
 }
 
 #homepage-list li a {
