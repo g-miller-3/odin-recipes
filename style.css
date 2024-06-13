@@ -6,13 +6,22 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background-color: rgb(65,65,65);
+}
+
 .heading {
-  background-color: pink;
+  border: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to bottom right,rgb(0,0,0), rgb(0,102,255));
+  color: lightgray;
   text-align: center;
+  font-size: 36px;
+  padding: 10px;
 }
 
 #homepage-list {
-  background-color: white;
+  background-color: rgb(65,65,65);
   list-style: none;
   display: block;
   padding: 0;
@@ -20,13 +29,17 @@ html {
 }
 
 #homepage-list li {
-  background-color: lightpink;
+  background-color: rgb(0,102,255);
+  /* background-image: linear-gradient(to bottom right, rgb(40,40,40), rgb(0,102,255)); */
+  border-radius: 8px;
   text-align: center;
   margin: 10px auto;
+  padding: 8px;
 }
 
 #homepage-list li a {
   font-size: 22px;
+  color: lightgray;
 }
 
 #description {
